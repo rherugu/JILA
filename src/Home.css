@@ -1,0 +1,107 @@
+.view {
+  background: linear-gradient(
+    103.59deg,
+    rgba(254, 247, 230, 1) 0%,
+    rgba(255, 239, 204, 1) 100%
+  );
+  position: absolute;
+  top: 104px;
+  inset: 0;
+  z-index: -1;
+}
+
+.left {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39%;
+  left: 0;
+
+  transition: opacity 0.3s ease-in-out;
+}
+.right {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39%;
+  left: 61%;
+
+  transition: opacity 0.3s ease-in-out;
+}
+.mainimg {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -89283;
+}
+
+.heading1 {
+  text-align: center;
+  font: 500 54px "FuturaMedium", sans-serif;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.heading1-span {
+  color: #1b1400;
+  font: 500 54px "FuturaMedium", sans-serif;
+  margin-right: 38px;
+}
+.heading1-span2 {
+  color: #070603;
+  font: 500 54px "FuturaMedium", sans-serif;
+}
+
+.group-4 {
+  display: inline-block;
+  width: 400px;
+  position: absolute;
+  bottom: 48%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle-2 {
+  background: rgba(255, 202, 202, 0.69);
+  width: 195px;
+  height: 46px;
+  color: #1b1400;
+  text-align: center;
+  margin-left: 15px;
+  font: 500 25px "FuturaMedium", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+
+.zoom-out {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+
+.where-community-matters {
+  color: #1b1400;
+  font: 500 25px "FuturaMedium", sans-serif;
+  margin-left: 4%;
+}

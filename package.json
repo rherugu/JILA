@@ -1,0 +1,56 @@
+{
+  "name": "p1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@stripe/ui-extension-sdk": "^8.8.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.14.0",
+    "axios": "^1.6.7",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "nanoid": "^5.0.5",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-loading-overlay": "^1.0.1",
+    "react-modal": "^3.16.1",
+    "react-native-web": "^0.19.9",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "reactjs-popup": "^2.0.6",
+    "rodal": "^2.1.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "sort-by": "^1.2.0",
+    "stripe": "^14.19.0",
+    "styled-components": "^6.1.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
